@@ -97,8 +97,8 @@
             "WebSite"
           ],
           "id": "_:website",
-          "siteName": "ACT-R Rule - No keyboard trap",
-          "siteScope": "https://act-rules.github.io/testcases/80af7b/"
+          "siteName": "ACT-R Rule - Button has accessible name",
+          "siteScope": "https://act-rules.github.io/testcases/97a4e1/"
         },
         "accessibilitySupportBaseline": "<< Fill out >>"
       },
@@ -336,253 +336,12 @@
         {
           "type": "Assertion",
           "test": "WCAG2:keyboard-operation-trapping",
-          "assertedBy": "_:evaluator",
           "subject": "_:website",
           "result": {
-            "date": "2019-06-14 12:12:45 -0400",
-            "description": "results entered for testing in Chrome; IE11 results noted when different",
-            "outcome": "earl:failed"
+            "description": "",
+            "outcome": "earl:untested"
           },
-          "mode": "earl:manual",
-          "hasPart": [
-            {
-              "type": "Assertion",
-              "assertedBy": "_:evaluator",
-              "subject": [
-                "_:struct_0"
-              ],
-              "result": {
-                "date": "2019-06-13 20:32:45 -0400",
-                "outcome": "earl:passed"
-              },
-              "multiPage": false,
-              "mode": "earl:manual",
-              "testcase": "WCAG2:keyboard-operation-trapping"
-            },
-            {
-              "type": "Assertion",
-              "assertedBy": "_:evaluator",
-              "subject": [
-                "_:struct_1"
-              ],
-              "result": {
-                "date": "2019-06-14 11:39:24 -0400",
-                "description": "",
-                "outcome": "earl:passed"
-              },
-              "multiPage": false,
-              "mode": "earl:manual",
-              "testcase": "WCAG2:keyboard-operation-trapping"
-            },
-            {
-              "type": "Assertion",
-              "assertedBy": "_:evaluator",
-              "subject": [
-                "_:struct_2"
-              ],
-              "result": {
-                "date": "2019-06-14 12:39:19 -0400",
-                "description": "no keyboard focusable element",
-                "outcome": "earl:inapplicable"
-              },
-              "multiPage": false,
-              "mode": "earl:manual",
-              "testcase": "WCAG2:keyboard-operation-trapping"
-            },
-            {
-              "type": "Assertion",
-              "assertedBy": "_:evaluator",
-              "subject": [
-                "_:struct_3"
-              ],
-              "result": {
-                "date": "2019-06-14 11:59:30 -0400",
-                "description": "M exit method works",
-                "outcome": "earl:passed"
-              },
-              "multiPage": false,
-              "mode": "earl:manual",
-              "testcase": "WCAG2:keyboard-operation-trapping"
-            },
-            {
-              "type": "Assertion",
-              "assertedBy": "_:evaluator",
-              "subject": [
-                "_:struct_4"
-              ],
-              "result": {
-                "date": "2019-06-14 11:59:33 -0400",
-                "description": "M exit method works",
-                "outcome": "earl:passed"
-              },
-              "multiPage": false,
-              "mode": "earl:manual",
-              "testcase": "WCAG2:keyboard-operation-trapping"
-            },
-            {
-              "type": "Assertion",
-              "assertedBy": "_:evaluator",
-              "subject": [
-                "_:struct_5"
-              ],
-              "result": {
-                "date": "2019-06-14 12:46:11 -0400",
-                "description": "Help instruction provided exit method that works",
-                "outcome": "earl:passed"
-              },
-              "multiPage": false,
-              "mode": "earl:manual",
-              "testcase": "WCAG2:keyboard-operation-trapping"
-            },
-            {
-              "type": "Assertion",
-              "assertedBy": "_:evaluator",
-              "subject": [
-                "_:struct_6"
-              ],
-              "result": {
-                "date": "2019-06-13 20:52:26 -0400",
-                "outcome": "earl:passed"
-              },
-              "multiPage": false,
-              "mode": "earl:manual",
-              "testcase": "WCAG2:keyboard-operation-trapping"
-            },
-            {
-              "type": "Assertion",
-              "assertedBy": "_:evaluator",
-              "subject": [
-                "_:struct_7"
-              ],
-              "result": {
-                "date": "2019-06-13 20:53:10 -0400",
-                "outcome": "earl:passed"
-              },
-              "multiPage": false,
-              "mode": "earl:manual",
-              "testcase": "WCAG2:keyboard-operation-trapping"
-            },
-            {
-              "type": "Assertion",
-              "assertedBy": "_:evaluator",
-              "subject": [
-                "_:struct_8"
-              ],
-              "result": {
-                "date": "2019-06-14 12:13:48 -0400",
-                "description": "trap on Button 1 in Chrome; passes in IE11",
-                "outcome": "earl:failed"
-              },
-              "multiPage": false,
-              "mode": "earl:manual",
-              "testcase": "WCAG2:keyboard-operation-trapping"
-            },
-            {
-              "type": "Assertion",
-              "assertedBy": "_:evaluator",
-              "subject": [
-                "_:struct_9"
-              ],
-              "result": {
-                "date": "2019-06-14 12:16:14 -0400",
-                "description": "trap on button 1 and button 2 loop",
-                "outcome": "earl:failed"
-              },
-              "multiPage": false,
-              "mode": "earl:manual",
-              "testcase": "WCAG2:keyboard-operation-trapping"
-            },
-            {
-              "type": "Assertion",
-              "assertedBy": "_:evaluator",
-              "subject": [
-                "_:struct_10"
-              ],
-              "result": {
-                "date": "2019-06-14 12:17:51 -0400",
-                "description": "trap on button 1 and button 2 loop",
-                "outcome": "earl:failed"
-              },
-              "multiPage": false,
-              "mode": "earl:manual",
-              "testcase": "WCAG2:keyboard-operation-trapping"
-            },
-            {
-              "type": "Assertion",
-              "assertedBy": "_:evaluator",
-              "subject": [
-                "_:struct_11"
-              ],
-              "result": {
-                "date": "2019-06-14 12:19:13 -0400",
-                "description": "trap on button 1 and button 2 loop, M-key did not exit trap",
-                "outcome": "earl:failed"
-              },
-              "multiPage": false,
-              "mode": "earl:manual",
-              "testcase": "WCAG2:keyboard-operation-trapping"
-            },
-            {
-              "type": "Assertion",
-              "assertedBy": "_:evaluator",
-              "subject": [
-                "_:struct_12"
-              ],
-              "result": {
-                "date": "2019-06-14 12:34:45 -0400",
-                "description": "no keyboard focusable element",
-                "outcome": "earl:inapplicable"
-              },
-              "multiPage": false,
-              "mode": "earl:manual",
-              "testcase": "WCAG2:keyboard-operation-trapping"
-            },
-            {
-              "type": "Assertion",
-              "assertedBy": "_:evaluator",
-              "subject": [
-                "_:struct_13"
-              ],
-              "result": {
-                "date": "2019-06-14 12:34:33 -0400",
-                "description": "no keyboard focusable element",
-                "outcome": "earl:inapplicable"
-              },
-              "multiPage": false,
-              "mode": "earl:manual",
-              "testcase": "WCAG2:keyboard-operation-trapping"
-            },
-            {
-              "type": "Assertion",
-              "assertedBy": "_:evaluator",
-              "subject": [
-                "_:struct_14"
-              ],
-              "result": {
-                "date": "2019-06-14 12:36:11 -0400",
-                "description": "no keyboard focusable element",
-                "outcome": "earl:inapplicable"
-              },
-              "multiPage": false,
-              "mode": "earl:manual",
-              "testcase": "WCAG2:keyboard-operation-trapping"
-            },
-            {
-              "type": "Assertion",
-              "assertedBy": "_:evaluator",
-              "subject": [
-                "_:struct_15"
-              ],
-              "result": {
-                "date": "2019-06-14 12:46:35 -0400",
-                "description": "no keyboard focusable element",
-                "outcome": "earl:inapplicable"
-              },
-              "multiPage": false,
-              "mode": "earl:manual",
-              "testcase": "WCAG2:keyboard-operation-trapping"
-            }
-          ]
+          "hasPart": []
         },
         {
           "type": "Assertion",
@@ -952,14 +711,255 @@
             "description": "",
             "outcome": "earl:untested"
           },
-          "hasPart": []
+          "hasPart": [
+            {
+              "type": "Assertion",
+              "assertedBy": "_:evaluator",
+              "subject": [
+                "_:struct_0"
+              ],
+              "result": {
+                "date": "2019-11-26 11:00:34 -0500",
+                "outcome": "earl:passed"
+              },
+              "multiPage": false,
+              "mode": "earl:manual",
+              "testcase": "WCAG2:ensure-compat-rsv"
+            },
+            {
+              "type": "Assertion",
+              "assertedBy": "_:evaluator",
+              "subject": [
+                "_:struct_1"
+              ],
+              "result": {
+                "date": "2019-11-26 11:01:13 -0500",
+                "outcome": "earl:passed"
+              },
+              "multiPage": false,
+              "mode": "earl:manual",
+              "testcase": "WCAG2:ensure-compat-rsv"
+            },
+            {
+              "type": "Assertion",
+              "assertedBy": "_:evaluator",
+              "subject": [
+                "_:struct_2"
+              ],
+              "result": {
+                "date": "2019-11-26 11:01:44 -0500",
+                "outcome": "earl:passed"
+              },
+              "multiPage": false,
+              "mode": "earl:manual",
+              "testcase": "WCAG2:ensure-compat-rsv"
+            },
+            {
+              "type": "Assertion",
+              "assertedBy": "_:evaluator",
+              "subject": [
+                "_:struct_3"
+              ],
+              "result": {
+                "date": "2019-11-26 11:02:31 -0500",
+                "outcome": "earl:passed"
+              },
+              "multiPage": false,
+              "mode": "earl:manual",
+              "testcase": "WCAG2:ensure-compat-rsv"
+            },
+            {
+              "type": "Assertion",
+              "assertedBy": "_:evaluator",
+              "subject": [
+                "_:struct_4"
+              ],
+              "result": {
+                "date": "2019-11-27 10:57:38 -0500",
+                "outcome": "earl:inapplicable",
+                "description": "no button found"
+              },
+              "multiPage": false,
+              "mode": "earl:manual",
+              "testcase": "WCAG2:ensure-compat-rsv"
+            },
+            {
+              "type": "Assertion",
+              "assertedBy": "_:evaluator",
+              "subject": [
+                "_:struct_5"
+              ],
+              "result": {
+                "date": "2019-11-27 10:58:04 -0500",
+                "outcome": "earl:inapplicable",
+                "description": "no button found"
+              },
+              "multiPage": false,
+              "mode": "earl:manual",
+              "testcase": "WCAG2:ensure-compat-rsv"
+            },
+            {
+              "type": "Assertion",
+              "assertedBy": "_:evaluator",
+              "subject": [
+                "_:struct_6"
+              ],
+              "result": {
+                "date": "2019-11-26 11:04:41 -0500",
+                "outcome": "earl:passed"
+              },
+              "multiPage": false,
+              "mode": "earl:manual",
+              "testcase": "WCAG2:ensure-compat-rsv"
+            },
+            {
+              "type": "Assertion",
+              "assertedBy": "_:evaluator",
+              "subject": [
+                "_:struct_7"
+              ],
+              "result": {
+                "date": "2019-11-26 11:05:15 -0500",
+                "outcome": "earl:passed"
+              },
+              "multiPage": false,
+              "mode": "earl:manual",
+              "testcase": "WCAG2:ensure-compat-rsv"
+            },
+            {
+              "type": "Assertion",
+              "assertedBy": "_:evaluator",
+              "subject": [
+                "_:struct_8"
+              ],
+              "result": {
+                "date": "2019-11-26 11:05:40 -0500",
+                "outcome": "earl:passed"
+              },
+              "multiPage": false,
+              "mode": "earl:manual",
+              "testcase": "WCAG2:ensure-compat-rsv"
+            },
+            {
+              "type": "Assertion",
+              "assertedBy": "_:evaluator",
+              "subject": [
+                "_:struct_9"
+              ],
+              "result": {
+                "date": "2019-11-26 11:06:15 -0500",
+                "outcome": "earl:failed"
+              },
+              "multiPage": false,
+              "mode": "earl:manual",
+              "testcase": "WCAG2:ensure-compat-rsv"
+            },
+            {
+              "type": "Assertion",
+              "assertedBy": "_:evaluator",
+              "subject": [
+                "_:struct_10"
+              ],
+              "result": {
+                "date": "2019-11-26 11:07:32 -0500",
+                "outcome": "earl:failed"
+              },
+              "multiPage": false,
+              "mode": "earl:manual",
+              "testcase": "WCAG2:ensure-compat-rsv"
+            },
+            {
+              "type": "Assertion",
+              "assertedBy": "_:evaluator",
+              "subject": [
+                "_:struct_11"
+              ],
+              "result": {
+                "date": "2019-11-26 11:07:57 -0500",
+                "outcome": "earl:failed"
+              },
+              "multiPage": false,
+              "mode": "earl:manual",
+              "testcase": "WCAG2:ensure-compat-rsv"
+            },
+            {
+              "type": "Assertion",
+              "assertedBy": "_:evaluator",
+              "subject": [
+                "_:struct_12"
+              ],
+              "result": {
+                "date": "2019-11-26 11:08:22 -0500",
+                "outcome": "earl:failed"
+              },
+              "multiPage": false,
+              "mode": "earl:manual",
+              "testcase": "WCAG2:ensure-compat-rsv"
+            },
+            {
+              "type": "Assertion",
+              "assertedBy": "_:evaluator",
+              "subject": [
+                "_:struct_13"
+              ],
+              "result": {
+                "date": "2019-11-26 11:08:50 -0500",
+                "outcome": "earl:inapplicable"
+              },
+              "multiPage": false,
+              "mode": "earl:manual",
+              "testcase": "WCAG2:ensure-compat-rsv"
+            },
+            {
+              "type": "Assertion",
+              "assertedBy": "_:evaluator",
+              "subject": [
+                "_:struct_14"
+              ],
+              "result": {
+                "date": "2019-11-26 11:14:10 -0500",
+                "description": "will confirm ANDI behavior for aria-hidden=true",
+                "outcome": "earl:failed"
+              },
+              "multiPage": false,
+              "mode": "earl:manual",
+              "testcase": "WCAG2:ensure-compat-rsv"
+            },
+            {
+              "type": "Assertion",
+              "assertedBy": "_:evaluator",
+              "subject": [
+                "_:struct_15"
+              ],
+              "result": {
+                "date": "2019-11-26 11:12:45 -0500",
+                "outcome": "earl:inapplicable"
+              },
+              "multiPage": false,
+              "mode": "earl:manual",
+              "testcase": "WCAG2:ensure-compat-rsv"
+            },
+            {
+              "type": "Assertion",
+              "assertedBy": "_:evaluator",
+              "subject": [
+                "_:struct_16"
+              ],
+              "result": {
+                "date": "2019-11-26 11:14:03 -0500",
+                "description": "will confirm ANDI behavior for aria-hidden=true",
+                "outcome": "earl:failed"
+              },
+              "multiPage": false,
+              "mode": "earl:manual",
+              "testcase": "WCAG2:ensure-compat-rsv"
+            }
+          ]
         }
       ],
       "creator": "_:evaluator",
-      "title": "Report for ACT-R Rule - No keyboard trap",
+      "title": "Report for ACT-R Rule - Button has accessible name",
       "commissioner": "ACT Rules Community Group",
-      "date": "June 17, 2019",
-      "summary": "\"Not present\" result was found for a \"Passed\" example. An issue will be logged for Trusted Tester to review and address this in a future update.",
       "structuredSample": {
         "webpage": [
           {
@@ -968,9 +968,9 @@
               "WebPage"
             ],
             "id": "_:struct_0",
-            "description": "https://act-rules.github.io/testcases/80af7b/69410ed3505eb1562185b9f862ba37d927998de8.html",
-            "source": "https://act-rules.github.io/testcases/80af7b/69410ed3505eb1562185b9f862ba37d927998de8.html",
-            "title": "69410ed3505eb1562185b9f862ba37d927998de8",
+            "description": "https://act-rules.github.io/testcases/97a4e1/3f1791e11d02c11f950a13172fc1c03d9e84f7cf.html",
+            "source": "https://act-rules.github.io/testcases/97a4e1/3f1791e11d02c11f950a13172fc1c03d9e84f7cf.html",
+            "title": "3f1791e11d02c11f950a13172fc1c03d9e84f7cf",
             "tested": false
           },
           {
@@ -979,9 +979,9 @@
               "WebPage"
             ],
             "id": "_:struct_1",
-            "description": "https://act-rules.github.io/testcases/80af7b/cb7788489955008fa42baa4f29929ec9d0c229fc.html",
-            "source": "https://act-rules.github.io/testcases/80af7b/cb7788489955008fa42baa4f29929ec9d0c229fc.html",
-            "title": "cb7788489955008fa42baa4f29929ec9d0c229fc",
+            "description": "https://act-rules.github.io/testcases/97a4e1/d408cca4ab3468dde1dec3fb48e51c508cbb70d7.html",
+            "source": "https://act-rules.github.io/testcases/97a4e1/d408cca4ab3468dde1dec3fb48e51c508cbb70d7.html",
+            "title": "d408cca4ab3468dde1dec3fb48e51c508cbb70d7",
             "tested": false
           },
           {
@@ -990,9 +990,9 @@
               "WebPage"
             ],
             "id": "_:struct_2",
-            "description": "https://act-rules.github.io/testcases/80af7b/bb305c5ab78c9404613f3ad60b42aa1f2c5cdb57.html",
-            "source": "https://act-rules.github.io/testcases/80af7b/bb305c5ab78c9404613f3ad60b42aa1f2c5cdb57.html",
-            "title": "bb305c5ab78c9404613f3ad60b42aa1f2c5cdb57",
+            "description": "https://act-rules.github.io/testcases/97a4e1/104a9256c8e8b0752c43ae0821daf92c18781ce8.html",
+            "source": "https://act-rules.github.io/testcases/97a4e1/104a9256c8e8b0752c43ae0821daf92c18781ce8.html",
+            "title": "104a9256c8e8b0752c43ae0821daf92c18781ce8",
             "tested": false
           },
           {
@@ -1001,9 +1001,9 @@
               "WebPage"
             ],
             "id": "_:struct_3",
-            "description": "https://act-rules.github.io/testcases/80af7b/3736456f46e6ba4994fe5888d8c3ef75fbf6821f.html",
-            "source": "https://act-rules.github.io/testcases/80af7b/3736456f46e6ba4994fe5888d8c3ef75fbf6821f.html",
-            "title": "3736456f46e6ba4994fe5888d8c3ef75fbf6821f",
+            "description": "https://act-rules.github.io/testcases/97a4e1/83899857cdc304726341cea593e3f72efc7e22ee.html",
+            "source": "https://act-rules.github.io/testcases/97a4e1/83899857cdc304726341cea593e3f72efc7e22ee.html",
+            "title": "83899857cdc304726341cea593e3f72efc7e22ee",
             "tested": false
           },
           {
@@ -1012,9 +1012,9 @@
               "WebPage"
             ],
             "id": "_:struct_4",
-            "description": "https://act-rules.github.io/testcases/80af7b/49eb23fe84cdb0800aea8fe2c3e967a21e3f8e3c.html",
-            "source": "https://act-rules.github.io/testcases/80af7b/49eb23fe84cdb0800aea8fe2c3e967a21e3f8e3c.html",
-            "title": "49eb23fe84cdb0800aea8fe2c3e967a21e3f8e3c",
+            "description": "https://act-rules.github.io/testcases/97a4e1/064ac1119c78804ee67d6fc4001b86279675466f.html",
+            "source": "https://act-rules.github.io/testcases/97a4e1/064ac1119c78804ee67d6fc4001b86279675466f.html",
+            "title": "064ac1119c78804ee67d6fc4001b86279675466f",
             "tested": false
           },
           {
@@ -1023,9 +1023,9 @@
               "WebPage"
             ],
             "id": "_:struct_5",
-            "description": "https://act-rules.github.io/testcases/80af7b/fa6c08882f371b132c7619bec16c3d6ea3ccc054.html",
-            "source": "https://act-rules.github.io/testcases/80af7b/fa6c08882f371b132c7619bec16c3d6ea3ccc054.html",
-            "title": "fa6c08882f371b132c7619bec16c3d6ea3ccc054",
+            "description": "https://act-rules.github.io/testcases/97a4e1/46ceea6d3ce5a938db807802a3cd8914ce154c14.html",
+            "source": "https://act-rules.github.io/testcases/97a4e1/46ceea6d3ce5a938db807802a3cd8914ce154c14.html",
+            "title": "46ceea6d3ce5a938db807802a3cd8914ce154c14",
             "tested": false
           },
           {
@@ -1034,9 +1034,9 @@
               "WebPage"
             ],
             "id": "_:struct_6",
-            "description": "https://act-rules.github.io/testcases/80af7b/3820e644ceea98676c75189b1f3dfbb7854ec1b4.html",
-            "source": "https://act-rules.github.io/testcases/80af7b/3820e644ceea98676c75189b1f3dfbb7854ec1b4.html",
-            "title": "3820e644ceea98676c75189b1f3dfbb7854ec1b4",
+            "description": "https://act-rules.github.io/testcases/97a4e1/cce47b593783fb76f84de37a53cd8af0f15a889f.html",
+            "source": "https://act-rules.github.io/testcases/97a4e1/cce47b593783fb76f84de37a53cd8af0f15a889f.html",
+            "title": "cce47b593783fb76f84de37a53cd8af0f15a889f",
             "tested": false
           },
           {
@@ -1045,9 +1045,9 @@
               "WebPage"
             ],
             "id": "_:struct_7",
-            "description": "https://act-rules.github.io/testcases/80af7b/260116f282e6b2306a085c21122974d1c6712d05.html",
-            "source": "https://act-rules.github.io/testcases/80af7b/260116f282e6b2306a085c21122974d1c6712d05.html",
-            "title": "260116f282e6b2306a085c21122974d1c6712d05",
+            "description": "https://act-rules.github.io/testcases/97a4e1/3378832ac24e2a6460efededb922a1355a1ccfba.html",
+            "source": "https://act-rules.github.io/testcases/97a4e1/3378832ac24e2a6460efededb922a1355a1ccfba.html",
+            "title": "3378832ac24e2a6460efededb922a1355a1ccfba",
             "tested": false
           },
           {
@@ -1056,9 +1056,9 @@
               "WebPage"
             ],
             "id": "_:struct_8",
-            "description": "https://act-rules.github.io/testcases/80af7b/78fa1137d4ca4e566718258caf700b99f52fb503.html",
-            "source": "https://act-rules.github.io/testcases/80af7b/78fa1137d4ca4e566718258caf700b99f52fb503.html",
-            "title": "78fa1137d4ca4e566718258caf700b99f52fb503",
+            "description": "https://act-rules.github.io/testcases/97a4e1/9cf07b4a24c6a3e24dd6093d967599518d26846a.html",
+            "source": "https://act-rules.github.io/testcases/97a4e1/9cf07b4a24c6a3e24dd6093d967599518d26846a.html",
+            "title": "9cf07b4a24c6a3e24dd6093d967599518d26846a",
             "tested": false
           },
           {
@@ -1067,9 +1067,9 @@
               "WebPage"
             ],
             "id": "_:struct_9",
-            "description": "https://act-rules.github.io/testcases/80af7b/d088ee2ba8ac1013dbf96976181e43128e2566ed.html",
-            "source": "https://act-rules.github.io/testcases/80af7b/d088ee2ba8ac1013dbf96976181e43128e2566ed.html",
-            "title": "d088ee2ba8ac1013dbf96976181e43128e2566ed",
+            "description": "https://act-rules.github.io/testcases/97a4e1/a6c40a95f261ac27993f8205d91f7f4540f91f23.html",
+            "source": "https://act-rules.github.io/testcases/97a4e1/a6c40a95f261ac27993f8205d91f7f4540f91f23.html",
+            "title": "a6c40a95f261ac27993f8205d91f7f4540f91f23",
             "tested": false
           },
           {
@@ -1078,9 +1078,9 @@
               "WebPage"
             ],
             "id": "_:struct_10",
-            "description": "https://act-rules.github.io/testcases/80af7b/cce1815dbe99e85431c7414751e75c943a04a1c7.html",
-            "source": "https://act-rules.github.io/testcases/80af7b/cce1815dbe99e85431c7414751e75c943a04a1c7.html",
-            "title": "cce1815dbe99e85431c7414751e75c943a04a1c7",
+            "description": "https://act-rules.github.io/testcases/97a4e1/34247af6724ee7bcdc0a71e0def98d5410e7363e.html",
+            "source": "https://act-rules.github.io/testcases/97a4e1/34247af6724ee7bcdc0a71e0def98d5410e7363e.html",
+            "title": "34247af6724ee7bcdc0a71e0def98d5410e7363e",
             "tested": false
           },
           {
@@ -1089,9 +1089,9 @@
               "WebPage"
             ],
             "id": "_:struct_11",
-            "description": "https://act-rules.github.io/testcases/80af7b/ed4e193b55daa159fb9278340a8de6bfc9fdd8c3.html",
-            "source": "https://act-rules.github.io/testcases/80af7b/ed4e193b55daa159fb9278340a8de6bfc9fdd8c3.html",
-            "title": "ed4e193b55daa159fb9278340a8de6bfc9fdd8c3",
+            "description": "https://act-rules.github.io/testcases/97a4e1/9cd3d7152dbd99cc60b83939ffb3003ab1a3d7de.html",
+            "source": "https://act-rules.github.io/testcases/97a4e1/9cd3d7152dbd99cc60b83939ffb3003ab1a3d7de.html",
+            "title": "9cd3d7152dbd99cc60b83939ffb3003ab1a3d7de",
             "tested": false
           },
           {
@@ -1100,9 +1100,9 @@
               "WebPage"
             ],
             "id": "_:struct_12",
-            "description": "https://act-rules.github.io/testcases/80af7b/0b85651f7b5522930967a5e243706419b81324ae.html",
-            "source": "https://act-rules.github.io/testcases/80af7b/0b85651f7b5522930967a5e243706419b81324ae.html",
-            "title": "0b85651f7b5522930967a5e243706419b81324ae",
+            "description": "https://act-rules.github.io/testcases/97a4e1/8eb7978d588ab8fd27918075581699ba3ec3d57e.html",
+            "source": "https://act-rules.github.io/testcases/97a4e1/8eb7978d588ab8fd27918075581699ba3ec3d57e.html",
+            "title": "8eb7978d588ab8fd27918075581699ba3ec3d57e",
             "tested": false
           },
           {
@@ -1111,9 +1111,9 @@
               "WebPage"
             ],
             "id": "_:struct_13",
-            "description": "https://act-rules.github.io/testcases/80af7b/117c07dd49f45f6180e42f261bb706b3c7345a19.html",
-            "source": "https://act-rules.github.io/testcases/80af7b/117c07dd49f45f6180e42f261bb706b3c7345a19.html",
-            "title": "117c07dd49f45f6180e42f261bb706b3c7345a19",
+            "description": "https://act-rules.github.io/testcases/97a4e1/18536a16b216da886cf45842e7a16ffebf80af8c.html",
+            "source": "https://act-rules.github.io/testcases/97a4e1/18536a16b216da886cf45842e7a16ffebf80af8c.html",
+            "title": "18536a16b216da886cf45842e7a16ffebf80af8c",
             "tested": false
           },
           {
@@ -1122,9 +1122,9 @@
               "WebPage"
             ],
             "id": "_:struct_14",
-            "description": "https://act-rules.github.io/testcases/80af7b/ef698dcb80787790ad086be6abdc79493f02c5ab.html",
-            "source": "https://act-rules.github.io/testcases/80af7b/ef698dcb80787790ad086be6abdc79493f02c5ab.html",
-            "title": "ef698dcb80787790ad086be6abdc79493f02c5ab",
+            "description": "https://act-rules.github.io/testcases/97a4e1/20901e2525d4f6c77476caacf41ec9d5c234a59a.html",
+            "source": "https://act-rules.github.io/testcases/97a4e1/20901e2525d4f6c77476caacf41ec9d5c234a59a.html",
+            "title": "20901e2525d4f6c77476caacf41ec9d5c234a59a",
             "tested": false
           },
           {
@@ -1133,9 +1133,20 @@
               "WebPage"
             ],
             "id": "_:struct_15",
-            "description": "https://act-rules.github.io/testcases/80af7b/0c9c757ddef9ea73ab3d3950668729a80aa03331.html",
-            "source": "https://act-rules.github.io/testcases/80af7b/0c9c757ddef9ea73ab3d3950668729a80aa03331.html",
-            "title": "0c9c757ddef9ea73ab3d3950668729a80aa03331",
+            "description": "https://act-rules.github.io/testcases/97a4e1/6cd354877d9f74fb27e250616b44abe1d70ed41e.html",
+            "source": "https://act-rules.github.io/testcases/97a4e1/6cd354877d9f74fb27e250616b44abe1d70ed41e.html",
+            "title": "6cd354877d9f74fb27e250616b44abe1d70ed41e",
+            "tested": false
+          },
+          {
+            "type": [
+              "TestSubject",
+              "WebPage"
+            ],
+            "id": "_:struct_16",
+            "description": "https://act-rules.github.io/testcases/97a4e1/e34c1f2a007d5711980c45f6051a3f2e52b66847.html",
+            "source": "https://act-rules.github.io/testcases/97a4e1/e34c1f2a007d5711980c45f6051a3f2e52b66847.html",
+            "title": "e34c1f2a007d5711980c45f6051a3f2e52b66847",
             "tested": false
           }
         ]
@@ -1159,7 +1170,7 @@
       },
       "id": "_:evaluator",
       "type": "Person",
-      "name": "Kathy Eng for Trusted Tester version 5"
+      "name": "Kathy Eng"
     }
   ]
 }
