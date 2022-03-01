@@ -1,0 +1,258 @@
+{
+  "@context": "https://act-rules.github.io/earl-context.json",
+  "@type": [
+    "Assertor",
+    "Project"
+  ],
+  "name": "Trusted Tester sample",
+  "shortdesc": "Manual test process",
+  "homepage": "https://github.com/Section508Coordinators/TrustedTester5.1/blob/main/Documents/Trusted%20Tester%20Test%20Process%20v5.1.docx",
+  "license": "NA",
+  "release": {
+    "@type": "Version",
+    "created": "Jan 2021",
+    "revision": "5.1"
+  },
+  "assertedThat": [
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://act-rules.github.io/testcases/e7aa44/b50bb4758857f30b71688dedba190ae2dc2a358e.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "1.2.1-audio-transcript-text"
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:passed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://act-rules.github.io/testcases/e7aa44/ca6443fb0a0e25da299d63a7aee795409784abc3.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "1.2.1-audio-transcript-text"
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:passed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://act-rules.github.io/testcases/e7aa44/0e8259423a992f087ad3dca54431bc8909f0892d.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "1.2.1-audio-transcript-text"
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:failed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://act-rules.github.io/testcases/e7aa44/b13cc282a4ca19035985408725b74189e08004e9.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "1.2.1-audio-transcript-text"
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:failed"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://act-rules.github.io/testcases/e7aa44/a60d2b26e04c3e364e27f1113e49292b9db8f733.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "1.2.1-audio-transcript-text"
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:inapplicable"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://act-rules.github.io/testcases/e7aa44/2dfa209363c9d1edab2e7bcd5448a0f21db78300.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "1.2.1-audio-transcript-text"
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:inapplicable"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://act-rules.github.io/testcases/e7aa44/a712845ae1efc5353a374239dd9c4c51522e0927.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "1.2.1-audio-transcript-text"
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:inapplicable"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://act-rules.github.io/testcases/c3232f/90b7864f21830a00f59c2a52b3d9a2359d2c2867.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "1.2.1-video- alternative-equivalent"
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:untested"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://act-rules.github.io/testcases/c3232f/85b0303b527a3d2836b4256a73cb438081bbc224.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "1.2.1-video- alternative-equivalent"
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:untested"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://act-rules.github.io/testcases/c3232f/7d7a94d0ae749de98095b3af35f0adf65cb01bd1.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "1.2.1-video- alternative-equivalent"
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:untested"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://act-rules.github.io/testcases/c3232f/28ec159184ae06f3854db2cce0dbb80f29d73f66.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "1.2.1-video- alternative-equivalent"
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:untested"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://act-rules.github.io/testcases/c3232f/f600a7ad3e0d61dd5ef28703702918ae54226aea.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "1.2.1-video- alternative-equivalent"
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:untested"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://act-rules.github.io/testcases/c3232f/f0a60f2924c927d3dc97676d02c83ab38025955f.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "1.2.1-video- alternative-equivalent"
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:untested"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://act-rules.github.io/testcases/c3232f/17189684688eb0b0fb6cbb3109527bf1558756b3.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "1.2.1-video- alternative-equivalent"
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:untested"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://act-rules.github.io/testcases/c3232f/59c0ee3628444964ca1313430417bfbbce9322b7.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "1.2.1-video- alternative-equivalent"
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:untested"
+      }
+    },
+    {
+      "@type": "Assertion",
+      "subject": {
+        "@type": "TestSubject",
+        "source": "https://act-rules.github.io/testcases/c3232f/2a4472d9d5765846750d18be872821b1e6eaed08.html"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "1.2.1-video- alternative-equivalent"
+      },
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:untested"
+      }
+    }
+  ]
+}
